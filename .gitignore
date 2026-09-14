@@ -1,1 +1,8 @@
-Term_Deposit_Marketing.egg-info/*
+# Ignore the specific egg-info folder
+*.egg-info/
+
+# Highly recommended: Ignore other common Python build and distribution folders
+__pycache__/
+*.pyc
+build/
+dist/
