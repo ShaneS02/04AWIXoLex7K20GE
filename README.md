@@ -196,6 +196,7 @@ Therefore, the bank should prioritize customers matching this high-probability p
 
 # Final Conclusions
 
+- Accuracy of the XGBoost model was 84.67%
 - **XGBoost had the highest F1 score (24.59%)** and is therefore the preferred model.
 - The dataset's class imbalance makes accuracy an unreliable measure of the model's ability to identify potential buyers.
 - `contact`, `month`, `age`, `balance`, and `day` were consistently useful features during feature selection.
